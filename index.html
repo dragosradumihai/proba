@@ -7,22 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-  <ul>
-    <li data-ng-repeat="(key, notification) in getNotifications()" class="so-show-hide so-notification-bad-next"
-        data-ng-show="notification.visible"> 
-        <span class="so-notification__icon-container"> 
-            <span
-                class="so-notification__icon SoGlyph SoGlyph--danger"> 
-            </span> 
-        </span>
-        <p class="so-notification__message ng-binding" data-ng-bind-html="notification.label | trustHtml">Something went
-            wrong : {1}. Please try reloading the page or call CRC and specify error code: {0}.</p> <a
-            class="so-close SoGlyph SoGlyph--cross"
-            data-ng-class="isNext ? 'SoGlyph SoGlyph--cross-next' : 'SoGlyph SoGlyph--cross'"
-            data-ng-click="hideNotification(key)"> </a>
-    </li>
-
-  </ul>
+  <h1>Test git</h1>
     
 </body> 
 </html>
